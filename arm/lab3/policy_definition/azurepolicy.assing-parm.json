@@ -1,8 +1,0 @@
-{ 
-	"tagValue":{ 
- 		"value": ["Dev", "Test", "Prod"]
-	},
-	"tagName": {
-   		"value": "Environment"
-	} 
-} 
