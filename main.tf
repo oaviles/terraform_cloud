@@ -5,7 +5,7 @@ terraform {
   backend "remote" {
     organization = "personal-mobile"
     workspaces {
-      name = "IaC_Workshop"
+      name = "terraform_cloud"
     }
   }
 }
@@ -23,7 +23,7 @@ resource "azurerm_resource_group" "rg" {
 }
 
 resource "azurerm_storage_account" "storage1" {
-  name                     = "storageaccountmx4"
+  name                     = "oaterraformcloud01"
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
   account_tier             = "Standard"
